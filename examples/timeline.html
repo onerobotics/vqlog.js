@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>vqlog.js - Timeline Example</title>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      #container {
+        overflow-x: auto;
+        white-space: nowrap;
+
+        background-size: 50px 50px;
+        background-image: linear-gradient(90deg, transparent 49px, rgba(0,0,0,.3) 50px);
+        background-attachment: local;
+      }
+      #timeline {
+        position: relative;
+        height: 20px;
+      }
+
+      #timeline .label {
+        width: 50px;
+        font-size: 10px;
+        position: absolute;
+        background-color: #333;
+        color: white;
+        line-height: 20px;
+      }
+
+      #events {
+        position: relative;
+        height: 160px;
+      }
+
+      #events .event {
+        position: absolute;
+        font-size: 10px;
+        line-height: 20px;
+        padding: 0px 5px;
+        border-left: 1px solid #000;
+      }
+
+      .event.Addition {
+        top: 0px;
+        background-color: red;
+        color: white;
+      }
+      .event.Overlap {
+        top: 20px;
+        background-color: orange;
+      }
+      .event.Request {
+        top: 40px;
+        color: blue;
+      }
+      .event.Timeout {
+        top: 60px;
+      }
+      .event.Allocation {
+        top: 80px;
+        background-color: blue;
+        color: white;
+      }
+      .event.Skip {
+        top: 100px;
+        background-color: purple;
+        color: white;
+      }
+      .event.Acknowledgement {
+        top: 120px;
+        background-color: green;
+        color: white;
+      }
+      .event.LoadBalance {
+        top: 140px;
+        background-color: yellow;
+        color: #000;
+      }
+      #legend .event {
+        padding: 5px;
+      }
+      #timeline li {
+        background-color: #666;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>vqlog.js - Timeline Example</h1>
+    <div id="container">
+      <ul id="timeline"></ul>
+      <div id="events"></div>
+    </div>
+
+    <div id="legend">
+      <div class="event Addition">Addition</div>
+      <div class="event Overlap">Overlap</div>
+      <div class="event Allocation">Allocation</div>
+      <div class="event Skip">Skip</div>
+      <div class="event LoadBalance">Load Balance</div>
+      <div class="event Acknowledgement">Acknowledgement</div>
+      <div class="event Request">Request to GETQ</div>
+      <div class="event Timeout">Timeout</div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../dist/vqlog.js"></script>
+    <script>
+    $(function() {
+      var eventInfo = function(event) {
+        switch (event.constructor.name) {
+          case "Acknowledgement":
+            return event.work_id + ", ACK: " + event.ack;
+            break;
+          case "Addition":
+            return event.work_id;
+            break;
+          case "Allocation":
+            return event.work_id;
+            break;
+          case "LoadBalance":
+            return event.npicked_num + "\/" +
+              event.npicked_den + ", " + event.n2pick_num + "\/" +
+              event.n2pick_den;
+            break;
+          case "Overlap":
+            return event.work_id;
+            break;
+          case "Request":
+            return "Area: " + event.area_id;
+            break;
+          case "Skip":
+            return event.work_id;
+            break;
+          case "Timeout":
+            return "Area: " + event.area_id;
+            break;
+          default:
+            return '';
+            break;
+        }
+      }
+
+      var drawEntry = function(entry, log, el) {
+        el.append('<div class="event ' + entry.event.constructor.name +
+          '" style="left: ' +
+          log.time_until(entry) * 500 + 'px">' + eventInfo(entry.event) + '<\/div>');
+      }
+
+      $.get("vqlog.txt", function(data) {
+        var log = vqlog.from_string(data);
+        // create timeilne, separated by 10ms gaps
+        var s = '';
+        for(i=0;i<=(log.duration()*10+1);i=i+1) {
+          s = s + '<div class="label" style="left: ' + i * 50 + 'px">' + i / 10 + 's<\/div>';
+        }
+        $("#timeline").append(s);
+
+        log.entries.forEach(function(entry) {
+          drawEntry(entry, log, $("#events"));
+        });
+      });
+    });
+    </script>
+  </body>
+</html>
+

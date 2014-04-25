@@ -1,0 +1,462 @@
+49035926, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49035927, Get_queue timeout, area 1
+49035990, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49035991, Get_queue timeout, area 1
+49036056, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036057, Get_queue timeout, area 1
+49036118, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036119, Get_queue timeout, area 1
+49036152, Put a part to queue, area 1, work_id 96, tray 0, model_id 1
+49036182, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036183, Get_queue timeout, area 1
+49036249, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036250, Get_queue timeout, area 1
+49036260, Part is overlapped, area 1, work_id 97, tray 0, model_id 1
+49036312, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036313, Get_queue timeout, area 1
+49036380, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036381, Get_queue timeout, area 1
+49036443, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036445, Get_queue timeout, area 1
+49036477, Part is overlapped, area 1, work_id 98, tray 0, model_id 1
+49036508, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036509, Part is allocated, area 1, work_id 96, tray 0, model_id 1
+49036603, Put a part to queue, area 1, work_id 99, tray 0, model_id 1
+49036818, Part is overlapped, area 1, work_id 100, tray 0, model_id 1
+49036891, Receive ACKQUE, area 1, work_id 96, tray 0, model_id 1, ack 1
+49036891, Load-balance, area 1, model_id 1, npicked 23/45, n2pick 1/2
+49036929, Part is overlapped, area 1, work_id 101, tray 0, model_id 1
+49036993, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49036994, Load-balance, area 1, model_id 1, npicked 23/46, n2pick 1/2
+49036994, Part is skipped (npicked > n2pick), area 1, work_id 99, tray 0, model_id 1
+49036994, Get_queue timeout, area 1
+49037054, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037055, Get_queue timeout, area 1
+49037113, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037114, Get_queue timeout, area 1
+49037148, Put a part to queue, area 1, work_id 102, tray 0, model_id 1
+49037174, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037175, Get_queue timeout, area 1
+49037238, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037239, Get_queue timeout, area 1
+49037261, Part is overlapped, area 1, work_id 103, tray 0, model_id 1
+49037303, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037304, Get_queue timeout, area 1
+49037366, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037367, Get_queue timeout, area 1
+49037424, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037425, Get_queue timeout, area 1
+49037480, Part is overlapped, area 1, work_id 104, tray 0, model_id 1
+49037485, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037486, Part is allocated, area 1, work_id 102, tray 0, model_id 1
+49037606, Put a part to queue, area 1, work_id 105, tray 0, model_id 1
+49037725, Part is overlapped, area 1, work_id 106, tray 0, model_id 1
+49037826, Part is overlapped, area 1, work_id 107, tray 0, model_id 1
+49037886, Receive ACKQUE, area 1, work_id 102, tray 0, model_id 1, ack 1
+49037886, Load-balance, area 1, model_id 1, npicked 24/47, n2pick 1/2
+49037996, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49037997, Load-balance, area 1, model_id 1, npicked 24/48, n2pick 1/2
+49037997, Part is skipped (npicked > n2pick), area 1, work_id 105, tray 0, model_id 1
+49037997, Get_queue timeout, area 1
+49038051, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038053, Get_queue timeout, area 1
+49038116, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038117, Get_queue timeout, area 1
+49038150, Put a part to queue, area 1, work_id 108, tray 0, model_id 1
+49038180, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038181, Get_queue timeout, area 1
+49038243, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038245, Get_queue timeout, area 1
+49038266, Part is overlapped, area 1, work_id 109, tray 0, model_id 1
+49038308, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038309, Get_queue timeout, area 1
+49038373, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038374, Get_queue timeout, area 1
+49038436, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038437, Get_queue timeout, area 1
+49038491, Part is overlapped, area 1, work_id 110, tray 0, model_id 1
+49038500, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49038501, Part is allocated, area 1, work_id 108, tray 0, model_id 1
+49038607, Put a part to queue, area 1, work_id 111, tray 0, model_id 1
+49038833, Part is overlapped, area 1, work_id 112, tray 0, model_id 1
+49038900, Receive ACKQUE, area 1, work_id 108, tray 0, model_id 1, ack 1
+49038900, Load-balance, area 1, model_id 1, npicked 25/49, n2pick 1/2
+49038933, Part is overlapped, area 1, work_id 113, tray 0, model_id 1
+49039014, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039015, Load-balance, area 1, model_id 1, npicked 25/50, n2pick 1/2
+49039015, Part is skipped (npicked > n2pick), area 1, work_id 111, tray 0, model_id 1
+49039015, Get_queue timeout, area 1
+49039058, Put a part to queue, area 1, work_id 114, tray 0, model_id 1
+49039069, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039071, Get_queue timeout, area 1
+49039134, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039135, Get_queue timeout, area 1
+49039157, Part is overlapped, area 1, work_id 115, tray 0, model_id 1
+49039199, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039200, Get_queue timeout, area 1
+49039262, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039263, Get_queue timeout, area 1
+49039320, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039321, Get_queue timeout, area 1
+49039382, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039383, Get_queue timeout, area 1
+49039446, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039447, Part is allocated, area 1, work_id 114, tray 0, model_id 1
+49039521, Put a part to queue, area 1, work_id 116, tray 0, model_id 1
+49039611, Part is overlapped, area 1, work_id 117, tray 0, model_id 1
+49039830, Part is overlapped, area 1, work_id 118, tray 0, model_id 1
+49039854, Receive ACKQUE, area 1, work_id 114, tray 0, model_id 1, ack 1
+49039854, Load-balance, area 1, model_id 1, npicked 26/51, n2pick 1/2
+49039946, Part is overlapped, area 1, work_id 119, tray 0, model_id 1
+49039958, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49039959, Load-balance, area 1, model_id 1, npicked 26/52, n2pick 1/2
+49039959, Part is skipped (npicked > n2pick), area 1, work_id 116, tray 0, model_id 1
+49039959, Get_queue timeout, area 1
+49040013, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040015, Get_queue timeout, area 1
+49040082, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040083, Get_queue timeout, area 1
+49040145, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040146, Get_queue timeout, area 1
+49040161, Put a part to queue, area 1, work_id 120, tray 0, model_id 1
+49040209, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040210, Get_queue timeout, area 1
+49040273, Part is overlapped, area 1, work_id 121, tray 0, model_id 1
+49040273, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040274, Get_queue timeout, area 1
+49040336, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040337, Get_queue timeout, area 1
+49040401, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040402, Get_queue timeout, area 1
+49040465, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040466, Part is allocated, area 1, work_id 120, tray 0, model_id 1
+49040514, Put a part to queue, area 1, work_id 122, tray 0, model_id 1
+49040619, Part is overlapped, area 1, work_id 123, tray 0, model_id 1
+49040856, Receive ACKQUE, area 1, work_id 120, tray 0, model_id 1, ack 1
+49040856, Load-balance, area 1, model_id 1, npicked 27/53, n2pick 1/2
+49040957, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49040958, Load-balance, area 1, model_id 1, npicked 27/54, n2pick 1/2
+49040958, Part is skipped (npicked > n2pick), area 1, work_id 122, tray 0, model_id 1
+49040958, Get_queue timeout, area 1
+49041012, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041013, Get_queue timeout, area 1
+49041077, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041078, Get_queue timeout, area 1
+49041139, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041140, Get_queue timeout, area 1
+49041163, Put a part to queue, area 1, work_id 124, tray 0, model_id 1
+49041204, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041205, Get_queue timeout, area 1
+49041267, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041268, Get_queue timeout, area 1
+49041279, Part is overlapped, area 1, work_id 125, tray 0, model_id 1
+49041331, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041332, Get_queue timeout, area 1
+49041397, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041398, Get_queue timeout, area 1
+49041461, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041462, Part is allocated, area 1, work_id 124, tray 0, model_id 1
+49041522, Put a part to queue, area 1, work_id 126, tray 0, model_id 1
+49041618, Part is overlapped, area 1, work_id 127, tray 0, model_id 1
+49041840, Part is overlapped, area 1, work_id 128, tray 0, model_id 1
+49041872, Receive ACKQUE, area 1, work_id 124, tray 0, model_id 1, ack 1
+49041872, Load-balance, area 1, model_id 1, npicked 28/55, n2pick 1/2
+49041957, Part is overlapped, area 1, work_id 129, tray 0, model_id 1
+49041975, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49041977, Load-balance, area 1, model_id 1, npicked 28/56, n2pick 1/2
+49041977, Part is skipped (npicked > n2pick), area 1, work_id 126, tray 0, model_id 1
+49041977, Get_queue timeout, area 1
+49042033, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042034, Get_queue timeout, area 1
+49042096, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042097, Get_queue timeout, area 1
+49042160, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042161, Get_queue timeout, area 1
+49042165, Put a part to queue, area 1, work_id 130, tray 0, model_id 1
+49042218, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042219, Get_queue timeout, area 1
+49042279, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042279, Part is overlapped, area 1, work_id 131, tray 0, model_id 1
+49042280, Get_queue timeout, area 1
+49042340, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042341, Get_queue timeout, area 1
+49042405, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042406, Get_queue timeout, area 1
+49042469, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042470, Get_queue timeout, area 1
+49042502, Part is overlapped, area 1, work_id 132, tray 0, model_id 1
+49042532, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49042533, Part is allocated, area 1, work_id 130, tray 0, model_id 1
+49042627, Put a part to queue, area 1, work_id 133, tray 0, model_id 1
+49042838, Part is overlapped, area 1, work_id 134, tray 0, model_id 1
+49042917, Receive ACKQUE, area 1, work_id 130, tray 0, model_id 1, ack 1
+49042917, Load-balance, area 1, model_id 1, npicked 29/57, n2pick 1/2
+49042953, Part is overlapped, area 1, work_id 135, tray 0, model_id 1
+49043011, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043012, Load-balance, area 1, model_id 1, npicked 29/58, n2pick 1/2
+49043012, Part is skipped (npicked > n2pick), area 1, work_id 133, tray 0, model_id 1
+49043012, Get_queue timeout, area 1
+49043067, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043069, Get_queue timeout, area 1
+49043132, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043133, Get_queue timeout, area 1
+49043166, Put a part to queue, area 1, work_id 136, tray 0, model_id 1
+49043196, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043197, Get_queue timeout, area 1
+49043259, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043260, Get_queue timeout, area 1
+49043283, Part is overlapped, area 1, work_id 137, tray 0, model_id 1
+49043324, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043325, Get_queue timeout, area 1
+49043389, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043390, Get_queue timeout, area 1
+49043454, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043455, Part is allocated, area 1, work_id 136, tray 0, model_id 1
+49043529, Put a part to queue, area 1, work_id 138, tray 0, model_id 1
+49043619, Part is overlapped, area 1, work_id 139, tray 0, model_id 1
+49043864, Receive ACKQUE, area 1, work_id 136, tray 0, model_id 1, ack 1
+49043864, Load-balance, area 1, model_id 1, npicked 30/59, n2pick 1/2
+49043958, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49043959, Load-balance, area 1, model_id 1, npicked 30/60, n2pick 1/2
+49043959, Part is skipped (npicked > n2pick), area 1, work_id 138, tray 0, model_id 1
+49043959, Get_queue timeout, area 1
+49044011, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044012, Get_queue timeout, area 1
+49044077, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044078, Get_queue timeout, area 1
+49044140, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044141, Get_queue timeout, area 1
+49044204, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044205, Get_queue timeout, area 1
+49044267, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044268, Get_queue timeout, area 1
+49044331, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044332, Get_queue timeout, area 1
+49044397, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044398, Get_queue timeout, area 1
+49044461, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044462, Get_queue timeout, area 1
+49044513, Put a part to queue, area 1, work_id 140, tray 0, model_id 1
+49044523, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044524, Get_queue timeout, area 1
+49044587, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044588, Get_queue timeout, area 1
+49044619, Part is overlapped, area 1, work_id 141, tray 0, model_id 1
+49044649, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044650, Get_queue timeout, area 1
+49044713, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044714, Get_queue timeout, area 1
+49044776, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044777, Get_queue timeout, area 1
+49044842, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49044843, Part is allocated, area 1, work_id 140, tray 0, model_id 1
+49044962, Put a part to queue, area 1, work_id 142, tray 0, model_id 1
+49045083, Part is overlapped, area 1, work_id 143, tray 0, model_id 1
+49045214, Receive ACKQUE, area 1, work_id 140, tray 0, model_id 1, ack 1
+49045214, Load-balance, area 1, model_id 1, npicked 31/61, n2pick 1/2
+49045299, Part is overlapped, area 1, work_id 144, tray 0, model_id 1
+49045317, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49045319, Load-balance, area 1, model_id 1, npicked 31/62, n2pick 1/2
+49045319, Part is skipped (npicked > n2pick), area 1, work_id 142, tray 0, model_id 1
+49045319, Get_queue timeout, area 1
+49045374, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49045375, Get_queue timeout, area 1
+49045407, Put a part to queue, area 1, work_id 145, tray 0, model_id 1
+49045440, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49045441, Get_queue timeout, area 1
+49045502, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49045503, Get_queue timeout, area 1
+49045560, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49045561, Get_queue timeout, area 1
+49045622, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49045623, Part is allocated, area 1, work_id 145, tray 0, model_id 1
+49045737, Put a part to queue, area 1, work_id 146, tray 0, model_id 1
+49045962, Part is overlapped, area 1, work_id 147, tray 0, model_id 1
+49046006, Receive ACKQUE, area 1, work_id 145, tray 0, model_id 1, ack 1
+49046006, Load-balance, area 1, model_id 1, npicked 32/63, n2pick 1/2
+49046091, Part is overlapped, area 1, work_id 148, tray 0, model_id 1
+49046109, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046111, Load-balance, area 1, model_id 1, npicked 32/64, n2pick 1/2
+49046111, Part is skipped (npicked > n2pick), area 1, work_id 146, tray 0, model_id 1
+49046111, Get_queue timeout, area 1
+49046166, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046167, Get_queue timeout, area 1
+49046191, Put a part to queue, area 1, work_id 149, tray 0, model_id 1
+49046231, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046232, Get_queue timeout, area 1
+49046291, Part is overlapped, area 1, work_id 150, tray 0, model_id 1
+49046294, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046295, Get_queue timeout, area 1
+49046352, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046353, Get_queue timeout, area 1
+49046413, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046414, Get_queue timeout, area 1
+49046477, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046478, Get_queue timeout, area 1
+49046540, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49046541, Part is allocated, area 1, work_id 149, tray 0, model_id 1
+49046637, Put a part to queue, area 1, work_id 151, tray 0, model_id 1
+49046756, Part is overlapped, area 1, work_id 152, tray 0, model_id 1
+49046863, Part is overlapped, area 1, work_id 153, tray 0, model_id 1
+49046949, Receive ACKQUE, area 1, work_id 149, tray 0, model_id 1, ack 1
+49046949, Load-balance, area 1, model_id 1, npicked 33/65, n2pick 1/2
+49046966, Part is overlapped, area 1, work_id 154, tray 0, model_id 1
+49047055, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047056, Load-balance, area 1, model_id 1, npicked 33/66, n2pick 1/2
+49047056, Part is skipped (npicked > n2pick), area 1, work_id 151, tray 0, model_id 1
+49047056, Get_queue timeout, area 1
+49047109, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047110, Get_queue timeout, area 1
+49047174, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047175, Get_queue timeout, area 1
+49047239, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047240, Get_queue timeout, area 1
+49047302, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047303, Get_queue timeout, area 1
+49047366, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047367, Get_queue timeout, area 1
+49047432, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047433, Get_queue timeout, area 1
+49047494, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047495, Get_queue timeout, area 1
+49047558, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047559, Get_queue timeout, area 1
+49047624, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047625, Get_queue timeout, area 1
+49047685, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047686, Get_queue timeout, area 1
+49047748, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047749, Get_queue timeout, area 1
+49047811, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047812, Get_queue timeout, area 1
+49047876, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047877, Get_queue timeout, area 1
+49047939, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49047940, Get_queue timeout, area 1
+49048004, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048005, Get_queue timeout, area 1
+49048069, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048070, Get_queue timeout, area 1
+49048134, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048135, Get_queue timeout, area 1
+49048200, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048201, Get_queue timeout, area 1
+49048262, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048263, Get_queue timeout, area 1
+49048320, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048321, Get_queue timeout, area 1
+49048381, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048382, Get_queue timeout, area 1
+49048444, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048445, Get_queue timeout, area 1
+49048507, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048508, Get_queue timeout, area 1
+49048570, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048571, Get_queue timeout, area 1
+49048635, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048636, Get_queue timeout, area 1
+49048698, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048699, Get_queue timeout, area 1
+49048762, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048763, Get_queue timeout, area 1
+49048826, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048827, Get_queue timeout, area 1
+49048884, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048885, Get_queue timeout, area 1
+49048945, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49048946, Get_queue timeout, area 1
+49049009, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049010, Get_queue timeout, area 1
+49049071, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049072, Get_queue timeout, area 1
+49049135, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049136, Get_queue timeout, area 1
+49049190, Put a part to queue, area 1, work_id 155, tray 0, model_id 1
+49049198, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049199, Get_queue timeout, area 1
+49049262, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049263, Get_queue timeout, area 1
+49049305, Part is overlapped, area 1, work_id 156, tray 0, model_id 1
+49049328, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049329, Get_queue timeout, area 1
+49049390, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049391, Get_queue timeout, area 1
+49049448, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049449, Get_queue timeout, area 1
+49049509, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49049510, Part is allocated, area 1, work_id 155, tray 0, model_id 1
+49049551, Put a part to queue, area 1, work_id 157, tray 0, model_id 1
+49049647, Part is overlapped, area 1, work_id 158, tray 0, model_id 1
+49049875, Part is overlapped, area 1, work_id 159, tray 0, model_id 1
+49049922, Receive ACKQUE, area 1, work_id 155, tray 0, model_id 1, ack 1
+49049922, Load-balance, area 1, model_id 1, npicked 34/67, n2pick 1/2
+49049983, Part is overlapped, area 1, work_id 160, tray 0, model_id 1
+49050033, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050035, Load-balance, area 1, model_id 1, npicked 34/68, n2pick 1/2
+49050035, Part is skipped (npicked > n2pick), area 1, work_id 157, tray 0, model_id 1
+49050035, Get_queue timeout, area 1
+49050089, Put a part to queue, area 1, work_id 161, tray 0, model_id 1
+49050090, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050091, Get_queue timeout, area 1
+49050155, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050156, Get_queue timeout, area 1
+49050193, Part is overlapped, area 1, work_id 162, tray 0, model_id 1
+49050217, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050218, Get_queue timeout, area 1
+49050281, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050282, Part is allocated, area 1, work_id 161, tray 0, model_id 1
+49050321, Put a part to queue, area 1, work_id 163, tray 0, model_id 1
+49050534, Part is overlapped, area 1, work_id 164, tray 0, model_id 1
+49050589, Receive ACKQUE, area 1, work_id 161, tray 0, model_id 1, ack 1
+49050589, Load-balance, area 1, model_id 1, npicked 35/69, n2pick 1/2
+49050653, Part is overlapped, area 1, work_id 165, tray 0, model_id 1
+49050675, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050677, Load-balance, area 1, model_id 1, npicked 35/70, n2pick 1/2
+49050677, Part is skipped (npicked > n2pick), area 1, work_id 163, tray 0, model_id 1
+49050677, Get_queue timeout, area 1
+49050732, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050733, Get_queue timeout, area 1
+49050794, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050795, Get_queue timeout, area 1
+49050859, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050860, Get_queue timeout, area 1
+49050865, Put a part to queue, area 1, work_id 166, tray 0, model_id 1
+49050923, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050924, Get_queue timeout, area 1
+49050972, Part is overlapped, area 1, work_id 167, tray 0, model_id 1
+49050989, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49050990, Get_queue timeout, area 1
+49051052, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051053, Get_queue timeout, area 1
+49051115, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051116, Get_queue timeout, area 1
+49051179, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051180, Get_queue timeout, area 1
+49051203, Part is overlapped, area 1, work_id 168, tray 0, model_id 1
+49051244, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051245, Part is allocated, area 1, work_id 166, tray 0, model_id 1
+49051321, Put a part to queue, area 1, work_id 169, tray 0, model_id 1
+49051644, Receive ACKQUE, area 1, work_id 166, tray 0, model_id 1, ack 1
+49051644, Load-balance, area 1, model_id 1, npicked 36/71, n2pick 1/2
+49051747, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051748, Load-balance, area 1, model_id 1, npicked 36/72, n2pick 1/2
+49051748, Part is skipped (npicked > n2pick), area 1, work_id 169, tray 0, model_id 1
+49051748, Get_queue timeout, area 1
+49051801, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051802, Get_queue timeout, area 1
+49051867, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051868, Get_queue timeout, area 1
+49051869, Put a part to queue, area 1, work_id 170, tray 0, model_id 1
+49051930, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051931, Get_queue timeout, area 1
+49051983, Part is overlapped, area 1, work_id 171, tray 0, model_id 1
+49051993, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49051994, Get_queue timeout, area 1
+49052057, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49052058, Get_queue timeout, area 1
+49052122, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49052123, Get_queue timeout, area 1
+49052186, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********
+49052187, Part is allocated, area 1, work_id 170, tray 0, model_id 1
+49052227, Put a part to queue, area 1, work_id 172, tray 0, model_id 1
+49052319, Part is overlapped, area 1, work_id 173, tray 0, model_id 1
