@@ -5,6 +5,17 @@ applications.
 
 ## Usage:
 
+There are a couple examples in the `/examples` directory. Use the
+[http-server](https://www.npmjs.org/package/http-server) node package
+to serve the examples:
+
+```
+   > npm install -g http-server
+   > http-server examples
+```
+
+Here's a quick example:
+
 ```js
 
   var vqlog = require("vqlog");

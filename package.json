@@ -7,7 +7,7 @@
     "test": "mocha"
   },
   "author": "Jay Strybis",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^1.18.2"
   }
