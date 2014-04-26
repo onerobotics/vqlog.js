@@ -9,6 +9,6 @@
   "author": "Jay Strybis",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^1.18.2",
+    "mocha": "^1.18.2"
   }
 }
