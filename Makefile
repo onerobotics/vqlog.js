@@ -3,7 +3,7 @@ TESTS = test/test_*.js test/**/test_*.js
 test:
 	mocha $(TESTS)
 
-dist:
-	browserify browser.js -o dist/vqlog.js
+browser:
+	browserify lib/browser.js -o examples/vqlog.js
 
-.PHONY: test dist
+.PHONY: test browser

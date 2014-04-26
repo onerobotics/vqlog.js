@@ -1,1 +1,0 @@
-vqlog = require('./lib/vqlog');
