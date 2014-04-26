@@ -1,13 +1,19 @@
 {
-  "name": "vqlog.js",
+  "name": "vqlog",
   "version": "0.1.0",
   "description": "FANUC Visual Line Tracking VQLOG analyzer",
+  "homepage": "https://github.com/onerobotics/vqlog.js",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "Jay Strybis",
   "license": "MIT",
+  "repository" :
+    {
+      "type" : "git",
+      "url" : "https://github.com/onerobotics/vqlog.js.git"
+    },
   "devDependencies": {
     "mocha": "^1.18.2"
   }
