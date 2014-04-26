@@ -30,43 +30,43 @@
 
     var ackData = function(event) {
       s = '<table><tr><th>Work ID<\/th><th>Tray ID<\/th><th>Model ID<\/th><th>Ack<\/th><\/tr>';
-      s = s + '<tr><td>' + event.work_id + '<\/td><td>' + event.tray_id + '<\/td><td>' + event.model_id + '<\/td><td>' + event.ack + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.workId + '<\/td><td>' + event.trayId + '<\/td><td>' + event.modelId + '<\/td><td>' + event.ack + '<\/td><\/tr><\/table>';
       return s;
     }
 
     var additionData = function(event) {
       s = '<table><tr><th>Work ID<\/th><th>Tray ID<\/th><th>Model ID<\/th><\/tr>';
-      s = s + '<tr><td>' + event.work_id + '<\/td><td>' + event.tray_id + '<\/td><td>' + event.model_id + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.workId + '<\/td><td>' + event.trayId + '<\/td><td>' + event.modelId + '<\/td><\/tr><\/table>';
       return s;
     }
 
     var allocationData = function(event) {
       s = '<table><tr><th>Work ID<\/th><th>Tray ID<\/th><th>Model ID<\/th><\/tr>';
-      s = s + '<tr><td>' + event.work_id + '<\/td><td>' + event.tray_id + '<\/td><td>' + event.model_id + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.workId + '<\/td><td>' + event.trayId + '<\/td><td>' + event.modelId + '<\/td><\/tr><\/table>';
       return s;
     }
 
     var lbData = function(event) {
       s = '<table><tr><th>Model ID<\/th><th>Npicked<\/th><th>N2pick<\/th><\/tr>';
-      s = s + '<tr><td>' + event.model_id + '<\/td><td>' + event.npicked_num + '\/' + event.npicked_den + '<\/td><td>' + event.n2pick_num + '\/' + event.n2pick_den + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.modelId + '<\/td><td>' + event.npickedNum + '\/' + event.npickedDen + '<\/td><td>' + event.n2pickNum + '\/' + event.n2pickDen + '<\/td><\/tr><\/table>';
       return s;
     }
 
    var overlapData = function(event) {
       s = '<table><tr><th>Work ID<\/th><th>Tray ID<\/th><th>Model ID<\/th><\/tr>';
-      s = s + '<tr><td>' + event.work_id + '<\/td><td>' + event.tray_id + '<\/td><td>' + event.model_id + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.workId + '<\/td><td>' + event.trayId + '<\/td><td>' + event.modelId + '<\/td><\/tr><\/table>';
       return s;
     }
 
     var requestData = function(event) {
       s = '<table><tr><th>Timeout<\/th><th>Consec<\/th><th>Model ID<\/th><th>Work ID<\/th><\/tr>';
-      s = s + '<tr><td>' + event.timeout + '<\/td><td>' + event.consec + '<\/td><td>' + event.model_id + '<\/td><td>' + event.work_id + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.timeout + '<\/td><td>' + event.consec + '<\/td><td>' + event.modelId + '<\/td><td>' + event.workId + '<\/td><\/tr><\/table>';
       return s;
     }
 
     var skipData = function(event) {
       s = '<table><tr><th>Work ID<\/th><th>Tray ID<\/th><th>Model ID<\/th><\/tr>';
-      s = s + '<tr><td>' + event.work_id + '<\/td><td>' + event.tray_id + '<\/td><td>' + event.model_id + '<\/td><\/tr><\/table>';
+      s = s + '<tr><td>' + event.workId + '<\/td><td>' + event.trayId + '<\/td><td>' + event.modelId + '<\/td><\/tr><\/table>';
       return s;
     }
 
@@ -107,21 +107,21 @@
 
     var printEntry = function(entry, log, el) {
       var s = '<tr>';
-      s = s + '<td>' + log.time_until(entry) + '<\/td>';
+      s = s + '<td>' + log.timeUntil(entry) + '<\/td>';
       s = s + '<td>' + entry.event.constructor.name + '<\/td>';
-      s = s + '<td>' + entry.event.area_id + '<\/td>';
+      s = s + '<td>' + entry.event.areaId + '<\/td>';
       s = s + '<td>' + eventData(entry.event) + '<\/td>';
       s = s + '<\/tr>';
       el.append(s);
     }
 
     $(function() {
-      var events_el = $("#events");
+      var eventsEl = $("#events");
 
       $.get("vqlog.txt", function(data) {
-        var log = vqlog.from_string(data);
+        var log = vqlog.fromString(data);
         log.entries.forEach(function(entry) {
-          printEntry(entry, log, events_el);
+          printEntry(entry, log, eventsEl);
         });
       });
     });

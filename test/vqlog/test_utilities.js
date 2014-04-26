@@ -4,9 +4,9 @@ var Helper = require('../helper'),
 
 describe('vqlog', function() {
   describe('utilities', function() {
-    describe("#time_interval", function() {
+    describe("#timeInterval", function() {
       it("works", function() {
-        assert.equal(1.0, utilities.time_interval(0,500));
+        assert.equal(1.0, utilities.timeInterval(0,500));
       });
     });
   });

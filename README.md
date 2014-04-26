@@ -8,13 +8,13 @@ applications.
 ```js
 
   var vqlog = require("vqlog");
-  var my_log = vqlog.from_path('./vqlog.txt');
+  var myLog = vqlog.fromPath('./vqlog.txt');
 
-  console.log('Duration: ' + my_log.duration());
-  console.log('Entries: ' + my_log.entries);
+  console.log('Duration: ' + myLog.duration());
+  console.log('Entries: ' + myLog.entries);
 
   // filter by event type
-  console.log('Acks: ' + my_log.entries_by_event_type('Acknowledgement'));
+  console.log('Acks: ' + myLog.entriesByEventType('Acknowledgement'));
 ```
 
 

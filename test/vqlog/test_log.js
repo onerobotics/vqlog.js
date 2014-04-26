@@ -6,9 +6,9 @@ describe('vqlog', function() {
   describe('log', function() {
     var log;
 
-    describe('#from_string', function() {
+    describe('#fromString', function() {
       beforeEach(function() {
-        log = Log.from_string('49035926, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********');
+        log = Log.fromString('49035926, Receive GETQUE, area 1, timeout 0, consec 1, model_id ********, work_id ********');
       });
 
       it('returns a log', function() {
@@ -16,24 +16,24 @@ describe('vqlog', function() {
       });
     });
 
-    describe('#from_path', function() {
+    describe('#fromPath', function() {
       beforeEach(function() {
-        log = Log.from_path(Helper.fixture_path('vqlog.txt'));
+        log = Log.fromPath(Helper.fixture_path('vqlog.txt'));
       });
 
       it('returns a log', function() {
         assert.equal('Log', log.constructor.name);
       });
 
-      describe('#start_tick', function() {
+      describe('#startTick', function() {
         it('works', function() {
-          assert.equal(49035926, log.start_tick());
+          assert.equal(49035926, log.startTick());
         });
       });
 
-      describe('#end_tick', function() {
+      describe('#endTick', function() {
         it('works', function() {
-          assert.equal(49052319, log.end_tick());
+          assert.equal(49052319, log.endTick());
         });
       });
 
@@ -43,37 +43,37 @@ describe('vqlog', function() {
         });
       });
 
-      describe('#entries_by_event_type', function() {
+      describe('#entriesByEventType', function() {
         it('works for acknowledgement', function() {
-          assert.equal(14, log.entries_by_event_type('Acknowledgement').length);
+          assert.equal(14, log.entriesByEventType('Acknowledgement').length);
         });
 
         it('works for addition', function() {
-          assert.equal(30, log.entries_by_event_type('Addition').length);
+          assert.equal(30, log.entriesByEventType('Addition').length);
         });
       });
 
-      describe('#entries_by_area_id', function() {
+      describe('#entriesByAreaId', function() {
         it('works', function() {
-          assert.equal(0, log.entries_by_area_id(0).length);
-          assert.equal(462, log.entries_by_area_id(1).length);
+          assert.equal(0, log.entriesByAreaId(0).length);
+          assert.equal(462, log.entriesByAreaId(1).length);
         });
       });
 
-      describe("#entries_by_work_id", function() {
+      describe("#entriesByWorkId", function() {
         it('works', function() {
-          assert.equal(0, log.entries_by_work_id(0).length);
-          assert.equal(3, log.entries_by_work_id(96).length);
+          assert.equal(0, log.entriesByWorkId(0).length);
+          assert.equal(3, log.entriesByWorkId(96).length);
         });
       });
 
-      describe('#time_until', function() {
+      describe('#timeUntil', function() {
         it('works', function() {
-          assert.equal(0, log.time_until(log.entries[0]));
-          assert.equal(log.duration(), log.time_until(log.entries[log.entries.length-1]));
+          assert.equal(0, log.timeUntil(log.entries[0]));
+          assert.equal(log.duration(), log.timeUntil(log.entries[log.entries.length-1]));
         });
       });
 
-    }); /* #from_path */
+    }); /* #fromPath */
   }); /* log */
 });

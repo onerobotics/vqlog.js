@@ -114,30 +114,30 @@
       var eventInfo = function(event) {
         switch (event.constructor.name) {
           case "Acknowledgement":
-            return event.work_id + ", ACK: " + event.ack;
+            return event.workId + ", ACK: " + event.ack;
             break;
           case "Addition":
-            return event.work_id;
+            return event.workId;
             break;
           case "Allocation":
-            return event.work_id;
+            return event.workId;
             break;
           case "LoadBalance":
-            return event.npicked_num + "\/" +
-              event.npicked_den + ", " + event.n2pick_num + "\/" +
-              event.n2pick_den;
+            return event.npickedNum + "\/" +
+              event.npickedDen + ", " + event.n2pickNum + "\/" +
+              event.n2pickDen;
             break;
           case "Overlap":
-            return event.work_id;
+            return event.workId;
             break;
           case "Request":
-            return "Area: " + event.area_id;
+            return "Area: " + event.areaId;
             break;
           case "Skip":
-            return event.work_id;
+            return event.workId;
             break;
           case "Timeout":
-            return "Area: " + event.area_id;
+            return "Area: " + event.areaId;
             break;
           default:
             return '';
@@ -148,11 +148,11 @@
       var drawEntry = function(entry, log, el) {
         el.append('<div class="event ' + entry.event.constructor.name +
           '" style="left: ' +
-          log.time_until(entry) * 500 + 'px">' + eventInfo(entry.event) + '<\/div>');
+          log.timeUntil(entry) * 500 + 'px">' + eventInfo(entry.event) + '<\/div>');
       }
 
       $.get("vqlog.txt", function(data) {
-        var log = vqlog.from_string(data);
+        var log = vqlog.fromString(data);
         // create timeilne, separated by 10ms gaps
         var s = '';
         for(i=0;i<=(log.duration()*10+1);i=i+1) {

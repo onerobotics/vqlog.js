@@ -19,20 +19,20 @@ describe('vqlog', function() {
         assert.equal('Timeout', entry.event.constructor.name);
       });
 
-      describe("#time_since", function() {
+      describe("#timeSince", function() {
         it('works', function() {
-          assert.equal(0.2, entry.time_since(0));
+          assert.equal(0.2, entry.timeSince(0));
         });
       });
     }); /* from constructor */
 
-    describe('#from_string', function() {
+    describe('#fromString', function() {
       it('works', function() {
-        entry = Entry.from_string('100, Get_queue timeout, area 1');
+        entry = Entry.fromString('100, Get_queue timeout, area 1');
         assert.equal(100, entry.tick);
         assert.equal('Timeout', entry.event.constructor.name);
       });
-    }); /* #from_string */
+    }); /* #fromString */
   });
 });
 
