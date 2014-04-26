@@ -1,6 +1,6 @@
-# vqlog.js
+# vqlog
 
-vqlog.js is a tool for analyzing VQLOGs from FANUC Visual Line Tracking
+vqlog is a tool for analyzing VQLOGs from FANUC Visual Line Tracking
 applications.
 
 ## Usage:
