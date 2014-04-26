@@ -5,17 +5,6 @@ applications.
 
 ## Usage:
 
-There are a couple examples in the `/examples` directory. Use the
-[http-server](https://www.npmjs.org/package/http-server) node package
-to serve the examples:
-
-```
-   > npm install -g http-server
-   > http-server examples
-```
-
-Here's a quick example:
-
 ```js
 
   var vqlog = require("vqlog");
@@ -27,3 +16,19 @@ Here's a quick example:
   // filter by event type
   console.log('Acks: ' + my_log.entries_by_event_type('Acknowledgement'));
 ```
+
+
+## Examples:
+
+There are a couple examples in the `/examples` directory. Use the
+[http-server](https://www.npmjs.org/package/http-server) node package
+to serve the examples:
+
+```
+   > npm install -g http-server
+   > http-server examples
+```
+
+Open `http://localhost:8080` in your browser.
+
+![timeline example](https://github.com/onerobotics/vqlog.js/raw/master/doc/timeline.png "Timeline Example")
