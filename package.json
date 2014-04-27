@@ -1,6 +1,6 @@
 {
   "name": "vqlog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FANUC Visual Line Tracking VQLOG analyzer",
   "homepage": "https://github.com/onerobotics/vqlog.js",
   "main": "index.js",
