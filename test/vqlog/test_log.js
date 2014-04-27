@@ -18,11 +18,15 @@ describe('vqlog', function() {
 
     describe('#fromPath', function() {
       beforeEach(function() {
-        log = Log.fromPath(Helper.fixture_path('vqlog.txt'));
+        log = Log.fromPath(Helper.fixturePath('vqlog.txt'));
       });
 
       it('returns a log', function() {
         assert.equal('Log', log.constructor.name);
+      });
+
+      it('works for another vqlog', function() {
+        log = Log.fromPath(Helper.fixturePath('vqlog1.txt'));
       });
 
       describe('#startTick', function() {

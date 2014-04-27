@@ -3,7 +3,7 @@ var path = require('path');
 function Helper() {
 }
 
-Helper.fixture_path = function(filename) {
+Helper.fixturePath = function(filename) {
   return path.resolve(__dirname,'fixtures', filename);
 }
 

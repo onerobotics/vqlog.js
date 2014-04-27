@@ -1,0 +1,543 @@
+2087426, Load-balance, area 2, model_id 1, npicked 5/5, n2pick 1/1
+2087426, Part is skipped (exit boundary), area 2, work_id 34, tray 0, model_id 1, cur_x 955, bound 945
+2087465, Put a part to queue, area 2, work_id 42, tray 0, model_id 1
+2087489, Put a part to queue, area 1, work_id 35, tray 0, model_id 1
+2087522, Load-balance, area 2, model_id 1, npicked 5/5, n2pick 1/1
+2087522, Part is skipped (exit boundary), area 2, work_id 35, tray 0, model_id 1, cur_x 950, bound 945
+2087525, Receive ACKQUE, area 1, work_id 11, tray 0, model_id 1, ack 1
+2087525, Load-balance, area 1, model_id 1, npicked 6/6, n2pick 1/1
+2087537, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2087538, Part is allocated, area 2, work_id 36, tray 0, model_id 1
+2087557, Put a part to queue, area 2, work_id 43, tray 0, model_id 1
+2087574, Load-balance, area 1, model_id 1, npicked 6/6, n2pick 1/1
+2087574, Part is skipped (exit boundary), area 1, work_id 12, tray 0, model_id 1, cur_x 962, bound 962
+2087597, Put a part to queue, area 1, work_id 36, tray 0, model_id 1
+2087661, Put a part to queue, area 2, work_id 44, tray 0, model_id 1
+2087661, Receive ACKQUE, area 2, work_id 36, tray 0, model_id 1, ack 1
+2087661, Load-balance, area 2, model_id 1, npicked 6/6, n2pick 1/1
+2087673, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2087674, Load-balance, area 1, model_id 1, npicked 6/6, n2pick 1/1
+2087674, Part is skipped (exit boundary), area 1, work_id 13, tray 0, model_id 1, cur_x 962, bound 962
+2087674, Part is allocated, area 1, work_id 14, tray 0, model_id 1
+2087689, Put a part to queue, area 1, work_id 37, tray 0, model_id 1
+2087722, Load-balance, area 2, model_id 1, npicked 6/6, n2pick 1/1
+2087722, Part is skipped (exit boundary), area 2, work_id 37, tray 0, model_id 1, cur_x 950, bound 945
+2087757, Put a part to queue, area 2, work_id 45, tray 0, model_id 1
+2087797, Put a part to queue, area 1, work_id 38, tray 0, model_id 1
+2087797, Receive ACKQUE, area 1, work_id 14, tray 0, model_id 1, ack 1
+2087797, Load-balance, area 1, model_id 1, npicked 7/7, n2pick 1/1
+2087809, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2087810, Part is allocated, area 2, work_id 38, tray 0, model_id 1
+2087861, Put a part to queue, area 2, work_id 46, tray 0, model_id 1
+2087878, Load-balance, area 1, model_id 1, npicked 7/7, n2pick 1/1
+2087878, Part is skipped (exit boundary), area 1, work_id 15, tray 0, model_id 1, cur_x 964, bound 962
+2087889, Put a part to queue, area 1, work_id 39, tray 0, model_id 1
+2087922, Load-balance, area 2, model_id 1, npicked 6/6, n2pick 1/1
+2087922, Part is skipped (exit boundary), area 2, work_id 39, tray 0, model_id 1, cur_x 950, bound 945
+2087933, Receive ACKQUE, area 2, work_id 38, tray 0, model_id 1, ack 1
+2087933, Load-balance, area 2, model_id 1, npicked 7/7, n2pick 1/1
+2087945, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2087946, Part is allocated, area 1, work_id 16, tray 0, model_id 1
+2087957, Put a part to queue, area 2, work_id 47, tray 0, model_id 1
+2087997, Put a part to queue, area 1, work_id 40, tray 0, model_id 1
+2088022, Load-balance, area 2, model_id 1, npicked 7/7, n2pick 1/1
+2088022, Part is skipped (exit boundary), area 2, work_id 40, tray 0, model_id 1, cur_x 950, bound 945
+2088061, Put a part to queue, area 2, work_id 48, tray 0, model_id 1
+2088069, Receive ACKQUE, area 1, work_id 16, tray 0, model_id 1, ack 1
+2088069, Load-balance, area 1, model_id 1, npicked 8/8, n2pick 1/1
+2088078, Load-balance, area 1, model_id 1, npicked 8/8, n2pick 1/1
+2088078, Part is skipped (exit boundary), area 1, work_id 17, tray 0, model_id 1, cur_x 964, bound 962
+2088081, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2088082, Part is allocated, area 2, work_id 41, tray 0, model_id 1
+2088089, Put a part to queue, area 1, work_id 41, tray 0, model_id 1
+2088157, Put a part to queue, area 2, work_id 49, tray 0, model_id 1
+2088174, Load-balance, area 1, model_id 1, npicked 8/8, n2pick 1/1
+2088174, Part is skipped (exit boundary), area 1, work_id 18, tray 0, model_id 1, cur_x 962, bound 962
+2088197, Put a part to queue, area 1, work_id 42, tray 0, model_id 1
+2088205, Receive ACKQUE, area 2, work_id 41, tray 0, model_id 1, ack 1
+2088205, Load-balance, area 2, model_id 1, npicked 8/8, n2pick 1/1
+2088217, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2088218, Part is allocated, area 1, work_id 19, tray 0, model_id 1
+2088226, Load-balance, area 2, model_id 1, npicked 8/8, n2pick 1/1
+2088226, Part is skipped (exit boundary), area 2, work_id 42, tray 0, model_id 1, cur_x 955, bound 945
+2088261, Put a part to queue, area 2, work_id 50, tray 0, model_id 1
+2088289, Put a part to queue, area 1, work_id 43, tray 0, model_id 1
+2088322, Load-balance, area 2, model_id 1, npicked 8/8, n2pick 1/1
+2088322, Part is skipped (exit boundary), area 2, work_id 43, tray 0, model_id 1, cur_x 950, bound 945
+2088341, Receive ACKQUE, area 1, work_id 19, tray 0, model_id 1, ack 1
+2088341, Load-balance, area 1, model_id 1, npicked 9/9, n2pick 1/1
+2088353, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2088354, Part is allocated, area 2, work_id 44, tray 0, model_id 1
+2088361, Put a part to queue, area 2, work_id 51, tray 0, model_id 1
+2088378, Load-balance, area 1, model_id 1, npicked 9/9, n2pick 1/1
+2088378, Part is skipped (exit boundary), area 1, work_id 20, tray 0, model_id 1, cur_x 964, bound 962
+2088393, Put a part to queue, area 1, work_id 44, tray 0, model_id 1
+2088461, Put a part to queue, area 2, work_id 52, tray 0, model_id 1
+2088477, Receive ACKQUE, area 2, work_id 44, tray 0, model_id 1, ack 1
+2088477, Load-balance, area 2, model_id 1, npicked 9/9, n2pick 1/1
+2088478, Load-balance, area 1, model_id 1, npicked 9/9, n2pick 1/1
+2088478, Part is skipped (exit boundary), area 1, work_id 21, tray 0, model_id 1, cur_x 964, bound 962
+2088489, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2088490, Part is allocated, area 1, work_id 22, tray 0, model_id 1
+2088493, Put a part to queue, area 1, work_id 45, tray 0, model_id 1
+2088526, Load-balance, area 2, model_id 1, npicked 9/9, n2pick 1/1
+2088526, Part is skipped (exit boundary), area 2, work_id 45, tray 0, model_id 1, cur_x 955, bound 945
+2088557, Put a part to queue, area 2, work_id 53, tray 0, model_id 1
+2088593, Put a part to queue, area 1, work_id 46, tray 0, model_id 1
+2088613, Receive ACKQUE, area 1, work_id 22, tray 0, model_id 1, ack 1
+2088613, Load-balance, area 1, model_id 1, npicked 10/10, n2pick 1/1
+2088622, Load-balance, area 2, model_id 1, npicked 9/9, n2pick 1/1
+2088622, Part is skipped (exit boundary), area 2, work_id 46, tray 0, model_id 1, cur_x 950, bound 945
+2088625, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2088626, Part is allocated, area 2, work_id 47, tray 0, model_id 1
+2088661, Put a part to queue, area 2, work_id 54, tray 0, model_id 1
+2088678, Load-balance, area 1, model_id 1, npicked 10/10, n2pick 1/1
+2088678, Part is skipped (exit boundary), area 1, work_id 23, tray 0, model_id 1, cur_x 964, bound 962
+2088693, Put a part to queue, area 1, work_id 47, tray 0, model_id 1
+2088749, Receive ACKQUE, area 2, work_id 47, tray 0, model_id 1, ack 1
+2088749, Load-balance, area 2, model_id 1, npicked 10/10, n2pick 1/1
+2088757, Put a part to queue, area 2, work_id 55, tray 0, model_id 1
+2088761, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2088762, Part is allocated, area 1, work_id 24, tray 0, model_id 1
+2088793, Put a part to queue, area 1, work_id 48, tray 0, model_id 1
+2088826, Load-balance, area 2, model_id 1, npicked 10/10, n2pick 1/1
+2088826, Part is skipped (exit boundary), area 2, work_id 48, tray 0, model_id 1, cur_x 955, bound 945
+2088861, Put a part to queue, area 2, work_id 56, tray 0, model_id 1
+2088878, Load-balance, area 1, model_id 1, npicked 10/10, n2pick 1/1
+2088878, Part is skipped (exit boundary), area 1, work_id 25, tray 0, model_id 1, cur_x 964, bound 962
+2088885, Receive ACKQUE, area 1, work_id 24, tray 0, model_id 1, ack 1
+2088885, Load-balance, area 1, model_id 1, npicked 11/11, n2pick 1/1
+2088893, Put a part to queue, area 1, work_id 49, tray 0, model_id 1
+2088897, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2088898, Part is allocated, area 2, work_id 49, tray 0, model_id 1
+2088957, Put a part to queue, area 2, work_id 57, tray 0, model_id 1
+2088974, Load-balance, area 1, model_id 1, npicked 11/11, n2pick 1/1
+2088974, Part is skipped (exit boundary), area 1, work_id 26, tray 0, model_id 1, cur_x 962, bound 962
+2088993, Put a part to queue, area 1, work_id 50, tray 0, model_id 1
+2089021, Receive ACKQUE, area 2, work_id 49, tray 0, model_id 1, ack 1
+2089021, Load-balance, area 2, model_id 1, npicked 11/11, n2pick 1/1
+2089022, Load-balance, area 2, model_id 1, npicked 11/11, n2pick 1/1
+2089022, Part is skipped (exit boundary), area 2, work_id 50, tray 0, model_id 1, cur_x 950, bound 945
+2089033, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2089034, Part is allocated, area 1, work_id 27, tray 0, model_id 1
+2089065, Put a part to queue, area 2, work_id 58, tray 0, model_id 1
+2089089, Put a part to queue, area 1, work_id 51, tray 0, model_id 1
+2089122, Load-balance, area 2, model_id 1, npicked 11/11, n2pick 1/1
+2089122, Part is skipped (exit boundary), area 2, work_id 51, tray 0, model_id 1, cur_x 950, bound 945
+2089157, Put a part to queue, area 2, work_id 59, tray 0, model_id 1
+2089157, Receive ACKQUE, area 1, work_id 27, tray 0, model_id 1, ack 1
+2089157, Load-balance, area 1, model_id 1, npicked 12/12, n2pick 1/1
+2089169, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2089170, Part is allocated, area 2, work_id 52, tray 0, model_id 1
+2089178, Load-balance, area 1, model_id 1, npicked 12/12, n2pick 1/1
+2089178, Part is skipped (exit boundary), area 1, work_id 28, tray 0, model_id 1, cur_x 964, bound 962
+2089197, Put a part to queue, area 1, work_id 52, tray 0, model_id 1
+2089261, Put a part to queue, area 2, work_id 60, tray 0, model_id 1
+2089278, Load-balance, area 1, model_id 1, npicked 12/12, n2pick 1/1
+2089278, Part is skipped (exit boundary), area 1, work_id 29, tray 0, model_id 1, cur_x 964, bound 962
+2089289, Put a part to queue, area 1, work_id 53, tray 0, model_id 1
+2089293, Receive ACKQUE, area 2, work_id 52, tray 0, model_id 1, ack 1
+2089293, Load-balance, area 2, model_id 1, npicked 12/12, n2pick 1/1
+2089305, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2089306, Part is allocated, area 1, work_id 30, tray 0, model_id 1
+2089322, Load-balance, area 2, model_id 1, npicked 12/12, n2pick 1/1
+2089322, Part is skipped (exit boundary), area 2, work_id 53, tray 0, model_id 1, cur_x 950, bound 945
+2089357, Put a part to queue, area 2, work_id 61, tray 0, model_id 1
+2089397, Put a part to queue, area 1, work_id 54, tray 0, model_id 1
+2089422, Load-balance, area 2, model_id 1, npicked 12/12, n2pick 1/1
+2089422, Part is skipped (exit boundary), area 2, work_id 54, tray 0, model_id 1, cur_x 950, bound 945
+2089429, Receive ACKQUE, area 1, work_id 30, tray 0, model_id 1, ack 1
+2089429, Load-balance, area 1, model_id 1, npicked 13/13, n2pick 1/1
+2089441, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2089442, Part is allocated, area 2, work_id 55, tray 0, model_id 1
+2089461, Put a part to queue, area 2, work_id 62, tray 0, model_id 1
+2089478, Load-balance, area 1, model_id 1, npicked 13/13, n2pick 1/1
+2089478, Part is skipped (exit boundary), area 1, work_id 31, tray 0, model_id 1, cur_x 964, bound 962
+2089489, Put a part to queue, area 1, work_id 55, tray 0, model_id 1
+2089557, Put a part to queue, area 2, work_id 63, tray 0, model_id 1
+2089565, Receive ACKQUE, area 2, work_id 55, tray 0, model_id 1, ack 1
+2089565, Load-balance, area 2, model_id 1, npicked 13/13, n2pick 1/1
+2089574, Load-balance, area 1, model_id 1, npicked 13/13, n2pick 1/1
+2089574, Part is skipped (exit boundary), area 1, work_id 32, tray 0, model_id 1, cur_x 962, bound 962
+2089577, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2089578, Part is allocated, area 1, work_id 33, tray 0, model_id 1
+2089597, Put a part to queue, area 1, work_id 56, tray 0, model_id 1
+2089622, Load-balance, area 2, model_id 1, npicked 13/13, n2pick 1/1
+2089622, Part is skipped (exit boundary), area 2, work_id 56, tray 0, model_id 1, cur_x 950, bound 945
+2089661, Put a part to queue, area 2, work_id 64, tray 0, model_id 1
+2089689, Put a part to queue, area 1, work_id 57, tray 0, model_id 1
+2089701, Receive ACKQUE, area 1, work_id 33, tray 0, model_id 1, ack 1
+2089701, Load-balance, area 1, model_id 1, npicked 14/14, n2pick 1/1
+2089713, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2089714, Part is allocated, area 2, work_id 57, tray 0, model_id 1
+2089757, Put a part to queue, area 2, work_id 65, tray 0, model_id 1
+2089774, Load-balance, area 1, model_id 1, npicked 14/14, n2pick 1/1
+2089774, Part is skipped (exit boundary), area 1, work_id 34, tray 0, model_id 1, cur_x 962, bound 962
+2089797, Put a part to queue, area 1, work_id 58, tray 0, model_id 1
+2089822, Load-balance, area 2, model_id 1, npicked 13/13, n2pick 1/1
+2089822, Part is skipped (exit boundary), area 2, work_id 58, tray 0, model_id 1, cur_x 950, bound 945
+2089837, Receive ACKQUE, area 2, work_id 57, tray 0, model_id 1, ack 1
+2089837, Load-balance, area 2, model_id 1, npicked 14/14, n2pick 1/1
+2089849, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2089850, Part is allocated, area 1, work_id 35, tray 0, model_id 1
+2089861, Put a part to queue, area 2, work_id 66, tray 0, model_id 1
+2089889, Put a part to queue, area 1, work_id 59, tray 0, model_id 1
+2089922, Load-balance, area 2, model_id 1, npicked 14/14, n2pick 1/1
+2089922, Part is skipped (exit boundary), area 2, work_id 59, tray 0, model_id 1, cur_x 950, bound 945
+2089961, Put a part to queue, area 2, work_id 67, tray 0, model_id 1
+2089973, Receive ACKQUE, area 1, work_id 35, tray 0, model_id 1, ack 1
+2089973, Load-balance, area 1, model_id 1, npicked 15/15, n2pick 1/1
+2089974, Load-balance, area 1, model_id 1, npicked 15/15, n2pick 1/1
+2089974, Part is skipped (exit boundary), area 1, work_id 36, tray 0, model_id 1, cur_x 962, bound 962
+2089985, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2089986, Part is allocated, area 2, work_id 60, tray 0, model_id 1
+2089993, Put a part to queue, area 1, work_id 60, tray 0, model_id 1
+2090061, Put a part to queue, area 2, work_id 68, tray 0, model_id 1
+2090078, Load-balance, area 1, model_id 1, npicked 15/15, n2pick 1/1
+2090078, Part is skipped (exit boundary), area 1, work_id 37, tray 0, model_id 1, cur_x 964, bound 962
+2090093, Put a part to queue, area 1, work_id 61, tray 0, model_id 1
+2090109, Receive ACKQUE, area 2, work_id 60, tray 0, model_id 1, ack 1
+2090109, Load-balance, area 2, model_id 1, npicked 15/15, n2pick 1/1
+2090121, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2090122, Part is allocated, area 1, work_id 38, tray 0, model_id 1
+2090122, Load-balance, area 2, model_id 1, npicked 15/15, n2pick 1/1
+2090122, Part is skipped (exit boundary), area 2, work_id 61, tray 0, model_id 1, cur_x 950, bound 945
+2090157, Put a part to queue, area 2, work_id 69, tray 0, model_id 1
+2090193, Put a part to queue, area 1, work_id 62, tray 0, model_id 1
+2090226, Load-balance, area 2, model_id 1, npicked 15/15, n2pick 1/1
+2090226, Part is skipped (exit boundary), area 2, work_id 62, tray 0, model_id 1, cur_x 955, bound 945
+2090245, Receive ACKQUE, area 1, work_id 38, tray 0, model_id 1, ack 1
+2090245, Load-balance, area 1, model_id 1, npicked 16/16, n2pick 1/1
+2090257, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2090258, Part is allocated, area 2, work_id 63, tray 0, model_id 1
+2090261, Put a part to queue, area 2, work_id 70, tray 0, model_id 1
+2090278, Load-balance, area 1, model_id 1, npicked 16/16, n2pick 1/1
+2090278, Part is skipped (exit boundary), area 1, work_id 39, tray 0, model_id 1, cur_x 964, bound 962
+2090293, Put a part to queue, area 1, work_id 63, tray 0, model_id 1
+2090357, Put a part to queue, area 2, work_id 71, tray 0, model_id 1
+2090374, Load-balance, area 1, model_id 1, npicked 16/16, n2pick 1/1
+2090374, Part is skipped (exit boundary), area 1, work_id 40, tray 0, model_id 1, cur_x 962, bound 962
+2090381, Receive ACKQUE, area 2, work_id 63, tray 0, model_id 1, ack 1
+2090381, Load-balance, area 2, model_id 1, npicked 16/16, n2pick 1/1
+2090393, Put a part to queue, area 1, work_id 64, tray 0, model_id 1
+2090393, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2090394, Part is allocated, area 1, work_id 41, tray 0, model_id 1
+2090426, Load-balance, area 2, model_id 1, npicked 16/16, n2pick 1/1
+2090426, Part is skipped (exit boundary), area 2, work_id 64, tray 0, model_id 1, cur_x 955, bound 945
+2090461, Put a part to queue, area 2, work_id 72, tray 0, model_id 1
+2090493, Put a part to queue, area 1, work_id 65, tray 0, model_id 1
+2090517, Receive ACKQUE, area 1, work_id 41, tray 0, model_id 1, ack 1
+2090517, Load-balance, area 1, model_id 1, npicked 17/17, n2pick 1/1
+2090526, Load-balance, area 2, model_id 1, npicked 16/16, n2pick 1/1
+2090526, Part is skipped (exit boundary), area 2, work_id 65, tray 0, model_id 1, cur_x 955, bound 945
+2090529, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2090530, Part is allocated, area 2, work_id 66, tray 0, model_id 1
+2090557, Put a part to queue, area 2, work_id 73, tray 0, model_id 1
+2090574, Load-balance, area 1, model_id 1, npicked 17/17, n2pick 1/1
+2090574, Part is skipped (exit boundary), area 1, work_id 42, tray 0, model_id 1, cur_x 962, bound 962
+2090593, Put a part to queue, area 1, work_id 66, tray 0, model_id 1
+2090653, Receive ACKQUE, area 2, work_id 66, tray 0, model_id 1, ack 1
+2090653, Load-balance, area 2, model_id 1, npicked 17/17, n2pick 1/1
+2090665, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2090665, Put a part to queue, area 2, work_id 74, tray 0, model_id 1
+2090666, Part is allocated, area 1, work_id 43, tray 0, model_id 1
+2090689, Put a part to queue, area 1, work_id 67, tray 0, model_id 1
+2090722, Load-balance, area 2, model_id 1, npicked 17/17, n2pick 1/1
+2090722, Part is skipped (exit boundary), area 2, work_id 67, tray 0, model_id 1, cur_x 950, bound 945
+2090757, Put a part to queue, area 2, work_id 75, tray 0, model_id 1
+2090774, Load-balance, area 1, model_id 1, npicked 17/17, n2pick 1/1
+2090774, Part is skipped (exit boundary), area 1, work_id 44, tray 0, model_id 1, cur_x 962, bound 962
+2090789, Receive ACKQUE, area 1, work_id 43, tray 0, model_id 1, ack 1
+2090789, Load-balance, area 1, model_id 1, npicked 18/18, n2pick 1/1
+2090797, Put a part to queue, area 1, work_id 68, tray 0, model_id 1
+2090801, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2090802, Part is allocated, area 2, work_id 68, tray 0, model_id 1
+2090861, Put a part to queue, area 2, work_id 76, tray 0, model_id 1
+2090878, Load-balance, area 1, model_id 1, npicked 18/18, n2pick 1/1
+2090878, Part is skipped (exit boundary), area 1, work_id 45, tray 0, model_id 1, cur_x 964, bound 962
+2090889, Put a part to queue, area 1, work_id 69, tray 0, model_id 1
+2090922, Load-balance, area 2, model_id 1, npicked 17/17, n2pick 1/1
+2090922, Part is skipped (exit boundary), area 2, work_id 69, tray 0, model_id 1, cur_x 950, bound 945
+2090925, Receive ACKQUE, area 2, work_id 68, tray 0, model_id 1, ack 1
+2090925, Load-balance, area 2, model_id 1, npicked 18/18, n2pick 1/1
+2090937, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2090938, Part is allocated, area 1, work_id 46, tray 0, model_id 1
+2090957, Put a part to queue, area 2, work_id 77, tray 0, model_id 1
+2090997, Put a part to queue, area 1, work_id 70, tray 0, model_id 1
+2091022, Load-balance, area 2, model_id 1, npicked 18/18, n2pick 1/1
+2091022, Part is skipped (exit boundary), area 2, work_id 70, tray 0, model_id 1, cur_x 950, bound 945
+2091061, Put a part to queue, area 2, work_id 78, tray 0, model_id 1
+2091061, Receive ACKQUE, area 1, work_id 46, tray 0, model_id 1, ack 1
+2091061, Load-balance, area 1, model_id 1, npicked 19/19, n2pick 1/1
+2091073, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2091074, Load-balance, area 1, model_id 1, npicked 19/19, n2pick 1/1
+2091074, Part is skipped (exit boundary), area 1, work_id 47, tray 0, model_id 1, cur_x 962, bound 962
+2091074, Part is allocated, area 2, work_id 71, tray 0, model_id 1
+2091089, Put a part to queue, area 1, work_id 71, tray 0, model_id 1
+2091157, Put a part to queue, area 2, work_id 79, tray 0, model_id 1
+2091174, Load-balance, area 1, model_id 1, npicked 19/19, n2pick 1/1
+2091174, Part is skipped (exit boundary), area 1, work_id 48, tray 0, model_id 1, cur_x 962, bound 962
+2091197, Put a part to queue, area 1, work_id 72, tray 0, model_id 1
+2091197, Receive ACKQUE, area 2, work_id 71, tray 0, model_id 1, ack 1
+2091197, Load-balance, area 2, model_id 1, npicked 19/19, n2pick 1/1
+2091209, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2091210, Part is allocated, area 1, work_id 49, tray 0, model_id 1
+2091226, Load-balance, area 2, model_id 1, npicked 19/19, n2pick 1/1
+2091226, Part is skipped (exit boundary), area 2, work_id 72, tray 0, model_id 1, cur_x 955, bound 945
+2091261, Put a part to queue, area 2, work_id 80, tray 0, model_id 1
+2091289, Put a part to queue, area 1, work_id 73, tray 0, model_id 1
+2091322, Load-balance, area 2, model_id 1, npicked 19/19, n2pick 1/1
+2091322, Part is skipped (exit boundary), area 2, work_id 73, tray 0, model_id 1, cur_x 950, bound 945
+2091333, Receive ACKQUE, area 1, work_id 49, tray 0, model_id 1, ack 1
+2091333, Load-balance, area 1, model_id 1, npicked 20/20, n2pick 1/1
+2091345, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2091346, Part is allocated, area 2, work_id 74, tray 0, model_id 1
+2091357, Put a part to queue, area 2, work_id 81, tray 0, model_id 1
+2091374, Load-balance, area 1, model_id 1, npicked 20/20, n2pick 1/1
+2091374, Part is skipped (exit boundary), area 1, work_id 50, tray 0, model_id 1, cur_x 962, bound 962
+2091397, Put a part to queue, area 1, work_id 74, tray 0, model_id 1
+2091461, Put a part to queue, area 2, work_id 82, tray 0, model_id 1
+2091469, Receive ACKQUE, area 2, work_id 74, tray 0, model_id 1, ack 1
+2091469, Load-balance, area 2, model_id 1, npicked 20/20, n2pick 1/1
+2091478, Load-balance, area 1, model_id 1, npicked 20/20, n2pick 1/1
+2091478, Part is skipped (exit boundary), area 1, work_id 51, tray 0, model_id 1, cur_x 964, bound 962
+2091481, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2091482, Part is allocated, area 1, work_id 52, tray 0, model_id 1
+2091489, Put a part to queue, area 1, work_id 75, tray 0, model_id 1
+2091522, Load-balance, area 2, model_id 1, npicked 20/20, n2pick 1/1
+2091522, Part is skipped (exit boundary), area 2, work_id 75, tray 0, model_id 1, cur_x 950, bound 945
+2091561, Put a part to queue, area 2, work_id 83, tray 0, model_id 1
+2091593, Put a part to queue, area 1, work_id 76, tray 0, model_id 1
+2091605, Receive ACKQUE, area 1, work_id 52, tray 0, model_id 1, ack 1
+2091605, Load-balance, area 1, model_id 1, npicked 21/21, n2pick 1/1
+2091617, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2091618, Part is allocated, area 2, work_id 76, tray 0, model_id 1
+2091661, Put a part to queue, area 2, work_id 84, tray 0, model_id 1
+2091678, Load-balance, area 1, model_id 1, npicked 21/21, n2pick 1/1
+2091678, Part is skipped (exit boundary), area 1, work_id 53, tray 0, model_id 1, cur_x 964, bound 962
+2091693, Put a part to queue, area 1, work_id 77, tray 0, model_id 1
+2091726, Load-balance, area 2, model_id 1, npicked 20/20, n2pick 1/1
+2091726, Part is skipped (exit boundary), area 2, work_id 77, tray 0, model_id 1, cur_x 955, bound 945
+2091741, Receive ACKQUE, area 2, work_id 76, tray 0, model_id 1, ack 1
+2091741, Load-balance, area 2, model_id 1, npicked 21/21, n2pick 1/1
+2091753, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2091754, Part is allocated, area 1, work_id 54, tray 0, model_id 1
+2091757, Put a part to queue, area 2, work_id 85, tray 0, model_id 1
+2091793, Put a part to queue, area 1, work_id 78, tray 0, model_id 1
+2091826, Load-balance, area 2, model_id 1, npicked 21/21, n2pick 1/1
+2091826, Part is skipped (exit boundary), area 2, work_id 78, tray 0, model_id 1, cur_x 955, bound 945
+2091861, Put a part to queue, area 2, work_id 86, tray 0, model_id 1
+2091877, Receive ACKQUE, area 1, work_id 54, tray 0, model_id 1, ack 1
+2091877, Load-balance, area 1, model_id 1, npicked 22/22, n2pick 1/1
+2091878, Load-balance, area 1, model_id 1, npicked 22/22, n2pick 1/1
+2091878, Part is skipped (exit boundary), area 1, work_id 55, tray 0, model_id 1, cur_x 964, bound 962
+2091889, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2091890, Part is allocated, area 2, work_id 79, tray 0, model_id 1
+2091893, Put a part to queue, area 1, work_id 79, tray 0, model_id 1
+2091957, Put a part to queue, area 2, work_id 87, tray 0, model_id 1
+2091974, Load-balance, area 1, model_id 1, npicked 22/22, n2pick 1/1
+2091974, Part is skipped (exit boundary), area 1, work_id 56, tray 0, model_id 1, cur_x 962, bound 962
+2091993, Put a part to queue, area 1, work_id 80, tray 0, model_id 1
+2092013, Receive ACKQUE, area 2, work_id 79, tray 0, model_id 1, ack 1
+2092013, Load-balance, area 2, model_id 1, npicked 22/22, n2pick 1/1
+2092022, Load-balance, area 2, model_id 1, npicked 22/22, n2pick 1/1
+2092022, Part is skipped (exit boundary), area 2, work_id 80, tray 0, model_id 1, cur_x 950, bound 945
+2092025, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2092026, Part is allocated, area 1, work_id 57, tray 0, model_id 1
+2092061, Put a part to queue, area 2, work_id 88, tray 0, model_id 1
+2092093, Put a part to queue, area 1, work_id 81, tray 0, model_id 1
+2092126, Load-balance, area 2, model_id 1, npicked 22/22, n2pick 1/1
+2092126, Part is skipped (exit boundary), area 2, work_id 81, tray 0, model_id 1, cur_x 955, bound 945
+2092149, Receive ACKQUE, area 1, work_id 57, tray 0, model_id 1, ack 1
+2092149, Load-balance, area 1, model_id 1, npicked 23/23, n2pick 1/1
+2092157, Put a part to queue, area 2, work_id 89, tray 0, model_id 1
+2092161, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2092162, Part is allocated, area 2, work_id 82, tray 0, model_id 1
+2092178, Load-balance, area 1, model_id 1, npicked 23/23, n2pick 1/1
+2092178, Part is skipped (exit boundary), area 1, work_id 58, tray 0, model_id 1, cur_x 964, bound 962
+2092193, Put a part to queue, area 1, work_id 82, tray 0, model_id 1
+2092265, Put a part to queue, area 2, work_id 90, tray 0, model_id 1
+2092274, Load-balance, area 1, model_id 1, npicked 23/23, n2pick 1/1
+2092274, Part is skipped (exit boundary), area 1, work_id 59, tray 0, model_id 1, cur_x 962, bound 962
+2092285, Receive ACKQUE, area 2, work_id 82, tray 0, model_id 1, ack 1
+2092285, Load-balance, area 2, model_id 1, npicked 23/23, n2pick 1/1
+2092289, Put a part to queue, area 1, work_id 83, tray 0, model_id 1
+2092297, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2092298, Part is allocated, area 1, work_id 60, tray 0, model_id 1
+2092322, Load-balance, area 2, model_id 1, npicked 23/23, n2pick 1/1
+2092322, Part is skipped (exit boundary), area 2, work_id 83, tray 0, model_id 1, cur_x 950, bound 945
+2092357, Put a part to queue, area 2, work_id 91, tray 0, model_id 1
+2092397, Put a part to queue, area 1, work_id 84, tray 0, model_id 1
+2092421, Receive ACKQUE, area 1, work_id 60, tray 0, model_id 1, ack 1
+2092421, Load-balance, area 1, model_id 1, npicked 24/24, n2pick 1/1
+2092422, Load-balance, area 2, model_id 1, npicked 23/23, n2pick 1/1
+2092422, Part is skipped (exit boundary), area 2, work_id 84, tray 0, model_id 1, cur_x 950, bound 945
+2092433, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2092434, Part is allocated, area 2, work_id 85, tray 0, model_id 1
+2092461, Put a part to queue, area 2, work_id 92, tray 0, model_id 1
+2092478, Load-balance, area 1, model_id 1, npicked 24/24, n2pick 1/1
+2092478, Part is skipped (exit boundary), area 1, work_id 61, tray 0, model_id 1, cur_x 964, bound 962
+2092489, Put a part to queue, area 1, work_id 85, tray 0, model_id 1
+2092557, Put a part to queue, area 2, work_id 93, tray 0, model_id 1
+2092557, Receive ACKQUE, area 2, work_id 85, tray 0, model_id 1, ack 1
+2092557, Load-balance, area 2, model_id 1, npicked 24/24, n2pick 1/1
+2092569, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2092570, Part is allocated, area 1, work_id 62, tray 0, model_id 1
+2092597, Put a part to queue, area 1, work_id 86, tray 0, model_id 1
+2092622, Load-balance, area 2, model_id 1, npicked 24/24, n2pick 1/1
+2092622, Part is skipped (exit boundary), area 2, work_id 86, tray 0, model_id 1, cur_x 950, bound 945
+2092661, Put a part to queue, area 2, work_id 94, tray 0, model_id 1
+2092678, Load-balance, area 1, model_id 1, npicked 24/24, n2pick 1/1
+2092678, Part is skipped (exit boundary), area 1, work_id 63, tray 0, model_id 1, cur_x 964, bound 962
+2092689, Put a part to queue, area 1, work_id 87, tray 0, model_id 1
+2092693, Receive ACKQUE, area 1, work_id 62, tray 0, model_id 1, ack 1
+2092693, Load-balance, area 1, model_id 1, npicked 25/25, n2pick 1/1
+2092705, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2092706, Part is allocated, area 2, work_id 87, tray 0, model_id 1
+2092757, Put a part to queue, area 2, work_id 95, tray 0, model_id 1
+2092774, Load-balance, area 1, model_id 1, npicked 25/25, n2pick 1/1
+2092774, Part is skipped (exit boundary), area 1, work_id 64, tray 0, model_id 1, cur_x 962, bound 962
+2092797, Put a part to queue, area 1, work_id 88, tray 0, model_id 1
+2092822, Load-balance, area 2, model_id 1, npicked 24/24, n2pick 1/1
+2092822, Part is skipped (exit boundary), area 2, work_id 88, tray 0, model_id 1, cur_x 950, bound 945
+2092829, Receive ACKQUE, area 2, work_id 87, tray 0, model_id 1, ack 1
+2092829, Load-balance, area 2, model_id 1, npicked 25/25, n2pick 1/1
+2092841, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2092842, Part is allocated, area 1, work_id 65, tray 0, model_id 1
+2092861, Put a part to queue, area 2, work_id 96, tray 0, model_id 1
+2092889, Put a part to queue, area 1, work_id 89, tray 0, model_id 1
+2092922, Load-balance, area 2, model_id 1, npicked 25/25, n2pick 1/1
+2092922, Part is skipped (exit boundary), area 2, work_id 89, tray 0, model_id 1, cur_x 950, bound 945
+2092957, Put a part to queue, area 2, work_id 97, tray 0, model_id 1
+2092965, Receive ACKQUE, area 1, work_id 65, tray 0, model_id 1, ack 1
+2092965, Load-balance, area 1, model_id 1, npicked 26/26, n2pick 1/1
+2092974, Load-balance, area 1, model_id 1, npicked 26/26, n2pick 1/1
+2092974, Part is skipped (exit boundary), area 1, work_id 66, tray 0, model_id 1, cur_x 962, bound 962
+2092977, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2092978, Part is allocated, area 2, work_id 90, tray 0, model_id 1
+2092997, Put a part to queue, area 1, work_id 90, tray 0, model_id 1
+2093061, Put a part to queue, area 2, work_id 98, tray 0, model_id 1
+2093078, Load-balance, area 1, model_id 1, npicked 26/26, n2pick 1/1
+2093078, Part is skipped (exit boundary), area 1, work_id 67, tray 0, model_id 1, cur_x 964, bound 962
+2093089, Put a part to queue, area 1, work_id 91, tray 0, model_id 1
+2093101, Receive ACKQUE, area 2, work_id 90, tray 0, model_id 1, ack 1
+2093101, Load-balance, area 2, model_id 1, npicked 26/26, n2pick 1/1
+2093113, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2093114, Part is allocated, area 1, work_id 68, tray 0, model_id 1
+2093122, Load-balance, area 2, model_id 1, npicked 26/26, n2pick 1/1
+2093122, Part is skipped (exit boundary), area 2, work_id 91, tray 0, model_id 1, cur_x 950, bound 945
+2093161, Put a part to queue, area 2, work_id 99, tray 0, model_id 1
+2093193, Put a part to queue, area 1, work_id 92, tray 0, model_id 1
+2093226, Load-balance, area 2, model_id 1, npicked 26/26, n2pick 1/1
+2093226, Part is skipped (exit boundary), area 2, work_id 92, tray 0, model_id 1, cur_x 955, bound 945
+2093237, Receive ACKQUE, area 1, work_id 68, tray 0, model_id 1, ack 1
+2093237, Load-balance, area 1, model_id 1, npicked 27/27, n2pick 1/1
+2093249, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2093250, Part is allocated, area 2, work_id 93, tray 0, model_id 1
+2093261, Put a part to queue, area 2, work_id 100, tray 0, model_id 1
+2093278, Load-balance, area 1, model_id 1, npicked 27/27, n2pick 1/1
+2093278, Part is skipped (exit boundary), area 1, work_id 69, tray 0, model_id 1, cur_x 964, bound 962
+2093293, Put a part to queue, area 1, work_id 93, tray 0, model_id 1
+2093357, Put a part to queue, area 2, work_id 101, tray 0, model_id 1
+2093373, Receive ACKQUE, area 2, work_id 93, tray 0, model_id 1, ack 1
+2093373, Load-balance, area 2, model_id 1, npicked 27/27, n2pick 1/1
+2093374, Load-balance, area 1, model_id 1, npicked 27/27, n2pick 1/1
+2093374, Part is skipped (exit boundary), area 1, work_id 70, tray 0, model_id 1, cur_x 962, bound 962
+2093385, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2093386, Part is allocated, area 1, work_id 71, tray 0, model_id 1
+2093393, Put a part to queue, area 1, work_id 94, tray 0, model_id 1
+2093426, Load-balance, area 2, model_id 1, npicked 27/27, n2pick 1/1
+2093426, Part is skipped (exit boundary), area 2, work_id 94, tray 0, model_id 1, cur_x 955, bound 945
+2093461, Put a part to queue, area 2, work_id 102, tray 0, model_id 1
+2093493, Put a part to queue, area 1, work_id 95, tray 0, model_id 1
+2093509, Receive ACKQUE, area 1, work_id 71, tray 0, model_id 1, ack 1
+2093509, Load-balance, area 1, model_id 1, npicked 28/28, n2pick 1/1
+2093521, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2093522, Load-balance, area 2, model_id 1, npicked 27/27, n2pick 1/1
+2093522, Part is skipped (exit boundary), area 2, work_id 95, tray 0, model_id 1, cur_x 950, bound 945
+2093522, Part is allocated, area 2, work_id 96, tray 0, model_id 1
+2093557, Put a part to queue, area 2, work_id 103, tray 0, model_id 1
+2093574, Load-balance, area 1, model_id 1, npicked 28/28, n2pick 1/1
+2093574, Part is skipped (exit boundary), area 1, work_id 72, tray 0, model_id 1, cur_x 962, bound 962
+2093593, Put a part to queue, area 1, work_id 96, tray 0, model_id 1
+2093645, Receive ACKQUE, area 2, work_id 96, tray 0, model_id 1, ack 1
+2093645, Load-balance, area 2, model_id 1, npicked 28/28, n2pick 1/1
+2093657, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2093658, Part is allocated, area 1, work_id 73, tray 0, model_id 1
+2093661, Put a part to queue, area 2, work_id 104, tray 0, model_id 1
+2093693, Put a part to queue, area 1, work_id 97, tray 0, model_id 1
+2093726, Load-balance, area 2, model_id 1, npicked 28/28, n2pick 1/1
+2093726, Part is skipped (exit boundary), area 2, work_id 97, tray 0, model_id 1, cur_x 955, bound 945
+2093757, Put a part to queue, area 2, work_id 105, tray 0, model_id 1
+2093774, Load-balance, area 1, model_id 1, npicked 28/28, n2pick 1/1
+2093774, Part is skipped (exit boundary), area 1, work_id 74, tray 0, model_id 1, cur_x 962, bound 962
+2093781, Receive ACKQUE, area 1, work_id 73, tray 0, model_id 1, ack 1
+2093781, Load-balance, area 1, model_id 1, npicked 29/29, n2pick 1/1
+2093793, Put a part to queue, area 1, work_id 98, tray 0, model_id 1
+2093793, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2093794, Part is allocated, area 2, work_id 98, tray 0, model_id 1
+2093865, Put a part to queue, area 2, work_id 106, tray 0, model_id 1
+2093874, Load-balance, area 1, model_id 1, npicked 29/29, n2pick 1/1
+2093874, Part is skipped (exit boundary), area 1, work_id 75, tray 0, model_id 1, cur_x 962, bound 962
+2093889, Put a part to queue, area 1, work_id 99, tray 0, model_id 1
+2093917, Receive ACKQUE, area 2, work_id 98, tray 0, model_id 1, ack 1
+2093917, Load-balance, area 2, model_id 1, npicked 29/29, n2pick 1/1
+2093926, Load-balance, area 2, model_id 1, npicked 29/29, n2pick 1/1
+2093926, Part is skipped (exit boundary), area 2, work_id 99, tray 0, model_id 1, cur_x 955, bound 945
+2093929, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2093930, Part is allocated, area 1, work_id 76, tray 0, model_id 1
+2093957, Put a part to queue, area 2, work_id 107, tray 0, model_id 1
+2093997, Put a part to queue, area 1, work_id 100, tray 0, model_id 1
+2094022, Load-balance, area 2, model_id 1, npicked 29/29, n2pick 1/1
+2094022, Part is skipped (exit boundary), area 2, work_id 100, tray 0, model_id 1, cur_x 950, bound 945
+2094053, Receive ACKQUE, area 1, work_id 76, tray 0, model_id 1, ack 1
+2094053, Load-balance, area 1, model_id 1, npicked 30/30, n2pick 1/1
+2094061, Put a part to queue, area 2, work_id 108, tray 0, model_id 1
+2094065, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2094066, Part is allocated, area 2, work_id 101, tray 0, model_id 1
+2094074, Load-balance, area 1, model_id 1, npicked 30/30, n2pick 1/1
+2094074, Part is skipped (exit boundary), area 1, work_id 77, tray 0, model_id 1, cur_x 962, bound 962
+2094089, Put a part to queue, area 1, work_id 101, tray 0, model_id 1
+2094157, Put a part to queue, area 2, work_id 109, tray 0, model_id 1
+2094174, Load-balance, area 1, model_id 1, npicked 30/30, n2pick 1/1
+2094174, Part is skipped (exit boundary), area 1, work_id 78, tray 0, model_id 1, cur_x 962, bound 962
+2094189, Receive ACKQUE, area 2, work_id 101, tray 0, model_id 1, ack 1
+2094189, Load-balance, area 2, model_id 1, npicked 30/30, n2pick 1/1
+2094197, Put a part to queue, area 1, work_id 102, tray 0, model_id 1
+2094201, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2094202, Part is allocated, area 1, work_id 79, tray 0, model_id 1
+2094226, Load-balance, area 2, model_id 1, npicked 30/30, n2pick 1/1
+2094226, Part is skipped (exit boundary), area 2, work_id 102, tray 0, model_id 1, cur_x 955, bound 945
+2094261, Put a part to queue, area 2, work_id 110, tray 0, model_id 1
+2094289, Put a part to queue, area 1, work_id 103, tray 0, model_id 1
+2094322, Load-balance, area 2, model_id 1, npicked 30/30, n2pick 1/1
+2094322, Part is skipped (exit boundary), area 2, work_id 103, tray 0, model_id 1, cur_x 950, bound 945
+2094325, Receive ACKQUE, area 1, work_id 79, tray 0, model_id 1, ack 1
+2094325, Load-balance, area 1, model_id 1, npicked 31/31, n2pick 1/1
+2094337, Receive GETQUE, area 2, timeout 100, consec 1, model_id ********, work_id ********
+2094338, Part is allocated, area 2, work_id 104, tray 0, model_id 1
+2094357, Put a part to queue, area 2, work_id 111, tray 0, model_id 1
+2094374, Load-balance, area 1, model_id 1, npicked 31/31, n2pick 1/1
+2094374, Part is skipped (exit boundary), area 1, work_id 80, tray 0, model_id 1, cur_x 962, bound 962
+2094397, Put a part to queue, area 1, work_id 104, tray 0, model_id 1
+2094461, Put a part to queue, area 2, work_id 112, tray 0, model_id 1
+2094461, Receive ACKQUE, area 2, work_id 104, tray 0, model_id 1, ack 1
+2094461, Load-balance, area 2, model_id 1, npicked 31/31, n2pick 1/1
+2094473, Receive GETQUE, area 1, timeout 100, consec 1, model_id ********, work_id ********
+2094474, Load-balance, area 1, model_id 1, npicked 31/31, n2pick 1/1
+2094474, Part is skipped (exit boundary), area 1, work_id 81, tray 0, model_id 1, cur_x 962, bound 962
+2094474, Part is allocated, area 1, work_id 82, tray 0, model_id 1
+2094476, Receive SETLBD, line 1
+2094476, Clear load stat, area 1, npicked 31/31
+2094476, Receive SETLBD, line 1
+2094476, Receive SETLBD, line 2
+2094476, Clear load stat, area 2, npicked 31/31
+2094476, Receive SETLBD, line 2
+2094524, Load-balance, area 2, model_id 1, npicked 0/0, n2pick 0/0
+2094524, Part is skipped (exit boundary), area 2, work_id 105, tray 0, model_id 1, cur_x 950, bound 945
+2094628, Load-balance, area 2, model_id 1, npicked 0/0, n2pick 0/0
+2094628, Part is skipped (exit boundary), area 2, work_id 106, tray 0, model_id 1, cur_x 955, bound 945
+2094676, Load-balance, area 1, model_id 1, npicked 0/0, n2pick 0/0
+2094676, Part is skipped (exit boundary), area 1, work_id 83, tray 0, model_id 1, cur_x 962, bound 962
+2094724, Load-balance, area 2, model_id 1, npicked 0/0, n2pick 0/0
+2094724, Part is skipped (exit boundary), area 2, work_id 107, tray 0, model_id 1, cur_x 950, bound 945
