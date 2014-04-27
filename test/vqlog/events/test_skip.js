@@ -75,7 +75,6 @@ describe('vqlog', function() {
               assert.equal(null, skip.bound);
             });
           }); /* exit boundary */
-
         });
       }); /* skip */
     }); /* events */
